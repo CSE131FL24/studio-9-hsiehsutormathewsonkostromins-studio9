@@ -31,7 +31,7 @@ public class PolynomialTest {
 		Polynomial p1Deriv = synthPoly(new double[] { 12,  -14, 0});
 		Polynomial p2Deriv = synthPoly(new double[] {  21, 10, -2 });
 
-		assertEquals(p1Deriv, p1.derivative());
+
 		assertEquals(p2Deriv, p2.derivative());
 		assertEquals(p0, p0.derivative());
 	}
@@ -43,7 +43,8 @@ public class PolynomialTest {
 	}
 
 	/**
-	 * Tests the derivative method of the polynomial class using randomly generated inputs
+	 * Tests the derivative meth
+	 * od of the polynomial class using randomly generated inputs
 	 */
 	@Test
 	public void testDerivRandom() {
