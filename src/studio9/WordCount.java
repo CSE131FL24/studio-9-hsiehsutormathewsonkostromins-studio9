@@ -54,8 +54,8 @@ public class WordCount {
 		wordList.add("be");
 		Map<String, Integer> words = countWords(wordList);
 
-//		for (Map<String, Integer> entry : words.entrySet()) {
-//			System.out.println("Word: " + words.getKey() + "Counter: " + words.getValue());
-//		}
+		for (Map.Entry<String, Integer> entry : words.entrySet()) {
+            System.out.println("Word: " + entry.getKey() + ", Count: " + entry.getValue());
+        }
 	}
 }
